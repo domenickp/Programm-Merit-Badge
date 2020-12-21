@@ -23,12 +23,3 @@ function showAlert() {
     ui.alert('Not making the menu!');
   }
 }
-
-function TitleAndSort() {
-  var spreadsheet = SpreadsheetApp.getActive();
-  spreadsheet.getRange('1:1').activate();
-  spreadsheet.getActiveSheet().setFrozenRows(1);
-  spreadsheet.getRange('C2').activate();
-  spreadsheet.getActiveSheet().sort(3, true);
-};
-
