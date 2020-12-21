@@ -1,6 +1,6 @@
-function onOpen() {
+function onOpen() {   // This is a special function that runs every time the spreadsheet is opened.
   var ui = SpreadsheetApp.getUi();
-  showAlert(); // Pop up the confirmation dialog
+  showAlert(); // Pop up the confirmation dialog by running this function.
 }
 
 function showAlert() {
