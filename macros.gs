@@ -13,13 +13,13 @@ function showAlert() {
 
   // Process the user's response.
   if (result == ui.Button.OK) {
-    // User clicked "Yes".
+    // User clicked "OK".
     ui.createMenu('Merit Badge Menu')
     .addItem('Set Title Row and Sort Data', 'TitleAndSort')
     .addToUi();
     ui.alert('Menu added!');
   } else {
-    // User clicked "No" or X in the title bar.
+    // User clicked "Cancel" or X in the title bar.
     ui.alert('Not making the menu!');
   }
 }
